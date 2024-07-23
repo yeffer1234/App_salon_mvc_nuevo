@@ -1,0 +1,23 @@
+{
+    "name": "lenovo/app-salon_php_mvc_js_sass",
+    "description": "Proyeto php 8 MVC, SASS GULP, SQL",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "yefferson",
+            "email": "yeffersonquintero1998@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
